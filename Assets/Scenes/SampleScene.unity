@@ -200,14 +200,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 471087628}
-  m_LocalRotation: {x: -0, y: -0, z: -0.2322834, w: 0.9726482}
-  m_LocalPosition: {x: 0.78, y: -2.02, z: 0}
-  m_LocalScale: {x: 9.0515, y: 1.143, z: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5222, y: -2.3526, z: 0}
+  m_LocalScale: {x: 12.576493, y: 1.8083327, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -26.863}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &471087631
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -330,6 +330,7 @@ GameObject:
   - component: {fileID: 916620633}
   - component: {fileID: 916620632}
   - component: {fileID: 916620635}
+  - component: {fileID: 916620636}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -418,7 +419,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916620631}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.04, y: 2.19, z: 0}
+  m_LocalPosition: {x: -4.76, y: -0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -441,6 +442,20 @@ CapsuleCollider2D:
   m_Offset: {x: 0.033794403, y: -0.25563824}
   m_Size: {x: 1.2507093, y: 1.4746239}
   m_Direction: 0
+--- !u!114 &916620636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 916620631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ed9fccdbc2e244a86f3130a344f8cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  rb: {fileID: 916620632}
 --- !u!1 &1133005534
 GameObject:
   m_ObjectHideFlags: 0
